@@ -1,0 +1,6 @@
+.detail-image {
+    border-radius: 50%;
+    height: 40vh;
+    width: 40vh;
+    object-fit: cover;
+}
