@@ -6,7 +6,7 @@ import Content from './content';
 function App() {
   return (
     <div className="App">
-      <section className="landing-page">
+      <section>
         <LandingPage />
       </section>
       <section className="content">

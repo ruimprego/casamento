@@ -6,6 +6,7 @@ import './content.css';
 function Content() {
     return (
         <div className="content-container">
+            <span className="info">Informações</span>
             <div className="header">
                 <div className="title">Trancoso</div>
                 <div className="date">30 de Abril</div>

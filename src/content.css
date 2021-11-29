@@ -1,7 +1,21 @@
+.info {
+    font-family: 'Estonia', cursive;
+    font-size: 80pt;
+}
+
 .content-container {
-    display: grid;
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+.title {
+    font-size: 20pt;
+}
+
+.header {
+    margin-bottom: 5vh;
 }
 
 .card-container {
     display: grid;
+    grid-template-columns: 1fr 1fr;
 }

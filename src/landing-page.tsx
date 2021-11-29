@@ -4,7 +4,8 @@ import './App.css';
 
 function LandingPage() {
   return (
-    <div>
+    <div className="landing-page">
+      <div className="wind"></div>
       <img src={logo} className="logo" />
     </div>
   );
