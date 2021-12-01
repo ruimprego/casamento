@@ -1,10 +1,8 @@
-.info {
-    font-family: 'Estonia', cursive;
-    font-size: 80pt;
-}
 
 .content-container {
     font-family: 'Nanum Myeongjo', serif;
+    background-color: white;
+    z-index: -2;
 }
 
 .title {

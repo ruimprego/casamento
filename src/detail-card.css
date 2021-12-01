@@ -1,5 +1,22 @@
+.img-wrapper {
+    height: 40vh;
+    width: 40vh;
+    margin-right: 15px;
+    position: relative;
+}
+
+.img-wrapper::after {
+    border: 8px solid #B29758;
+    content: '';
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    top: 15px;
+    left: 15px;
+    z-index: -1;
+}
+
 .detail-image {
-    border-radius: 50%;
     height: 40vh;
     width: 40vh;
     object-fit: cover;
@@ -9,10 +26,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    box-shadow: 0 3px 4px rgba(0,0,0,.1);
 }
 
 .card-title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20pt;    
+}
+
+.card-text {
     font-size: 15pt;
     margin-bottom: 3vh;
 }
@@ -20,9 +41,9 @@
 .card-link {
     margin: 3vh 0;
     text-decoration: none;
-    color: white;
-    background-color: #282c34;
+    color: #009FB7;
     padding: 20px 50px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-transform: uppercase;
+    text-decoration: underline;
 }
