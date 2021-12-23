@@ -1,10 +1,15 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './App.css';
 import LandingPage from './landing-page';
 import Content from './content';
 import Footer from './footer';
 
 function App() {
+  
+  useEffect(() => {
+    document.title = "Patrícia e Rui";  
+  }, []);
+
   return (
     <div className="App">
       <section>
