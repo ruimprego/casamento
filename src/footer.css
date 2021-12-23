@@ -1,6 +1,26 @@
 .footer-wrapper {
-    background-color: #d7dce1;
+    position: relative;
+    padding: 20px 0 50px;
 }
+
+.contact {
+    padding-top: 30px;
+}
+
+.footer-wrapper::after {
+    clip-path: polygon(0 70%, 100% 0, 100% 30%, 0 100%);
+    transform: skew(-10deg, -10deg);
+    border-top: 5px solid #fff;
+    border-bottom: 5px solid #7d684c; 
+    content: '';
+    display: block;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 2;
+    box-shadow: 5px 10px;
+}
+
 
 .link {
     color: #009FB7;

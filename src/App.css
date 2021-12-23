@@ -1,6 +1,9 @@
 .App {
   text-align: center;
   width: 100vw;
+  background-image: url('./assets/background.png') ;
+  animation: animateBackground 900s linear;
+  animation-iteration-count: infinite;
 }
 
 .arrow-icon {
@@ -43,16 +46,13 @@
   justify-content: center;
   color: #7d684c;
   position: relative;
-  background-image: url('./assets/background.png') ;
   overflow: hidden;
-  animation: animateBackground 400s linear;
-  animation-iteration-count: infinite;
 }
 
 @keyframes animateBackground {
-	0% { background-position: 2500px 3100px; }
-	50% { background-position: 1000px 600px; }
-	100% { background-position: 2500px 3100px; }
+	0% { background-position: 1500px 2200px; }
+	50% { background-position: 2000px 2700px; }
+	100% { background-position: 1500px 2200px; }
 }
 
 .text-container {
@@ -100,7 +100,7 @@
 	height: 75vw;
 	position: absolute;
 	filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .3));
-	mix-blend-mode: color-burn;
+	mix-blend-mode: screen;
 	margin-top: 7vh;
 }
 
