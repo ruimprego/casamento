@@ -7,7 +7,7 @@ function Content() {
     return (
         <div className="content-container">
             <div className="card-container">
-                {APP_CONST.content.map((place, i) => <DetailCard place={place} id={i}/>)}
+                {APP_CONST.content.map((place, i) => <DetailCard place={place} key={i}/>)}
             </div>
         </div>
     )

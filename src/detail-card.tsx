@@ -2,7 +2,6 @@ import React from 'react';
 import './detail-card.css';
 
 function DetailCard(props : any) {
-    console.log(props.place.image);
     return (
         <div key={props.id} className="card">
             <span className="card-title">{props.place.title}</span>
@@ -10,7 +9,7 @@ function DetailCard(props : any) {
             <span className="img-wrapper">
                 <img className="detail-image" src={props.place.image} alt={props.place.text} />
             </span>
-            <a className="card-link" href={props.place.location}>Direções</a>
+            <a  href={props.place.location} className="card-link">Direções</a>
         </div>
     )
 }

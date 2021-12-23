@@ -1,4 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Estonia&family=Nanum+Myeongjo&family=Playfair+Display&family=Raleway:wght@100;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Estonia&family=Montserrat:wght@600;700&family=Nanum+Myeongjo&family=Playfair+Display&family=Raleway:wght@100;300&display=swap');
+
+@font-face {
+  font-family: 'MagnoliaSky';
+  src: local('MagnoliaSky'), url(./assets/magnolia_sky.ttf) format('truetype');
+}
 
 body {
   margin: 0;
