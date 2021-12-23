@@ -9,6 +9,12 @@
     font-size: 20pt;
 }
 
+.content-title {
+    font-size: 30pt;
+    font-family: 'MagnoliaSky', serif;
+    color: #7d684c;
+}
+
 .header {
     margin-bottom: 5vh;
 }

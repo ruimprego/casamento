@@ -6,31 +6,21 @@
     z-index: 1;
 }
 
-.img-wrapper::after {
-    border: 8px solid #B29758;
-    content: '';
-    position: absolute;
-    width: inherit;
-    height: inherit;
-    top: 15px;
-    left: 15px;
-    z-index: 0;
-}
-
 .detail-image {
     height: 40vh;
-    width: 40vh;
+    width: 100vw;
     object-fit: cover;
+    clip-path: polygon(0 0%, 100% 0, 100% 80%, 0 100%);
 }
 
 .card {
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
 .card-title {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'MagnoliaSky', sans-serif;
+    color: #7d684c;
     font-size: 20pt;    
 }
 

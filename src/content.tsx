@@ -6,6 +6,7 @@ import './content.css';
 function Content() {
     return (
         <div className="content-container">
+            <div className="content-title">A Festa</div>
             <div className="card-container">
                 {APP_CONST.content.map((place, i) => <DetailCard place={place} key={i}/>)}
             </div>

@@ -6,13 +6,13 @@ function Footer() {
         <div className="footer-wrapper">
             <div className="contact">
                 <div className="contact-name">Patrícia Rebelo</div>
-                <div className="phone">(+351) 96 49 49 591</div>
-                <div className="email">patriciafsrebelo@gmail.com</div>
+                <a className="phone link" href="tel:+351964949591">(+351) 96 49 49 591</a>
+                <a className="email link" href="mailto:patriciafsrebelo@gmail.com">patriciafsrebelo@gmail.com</a>
             </div>
             <div className="contact">
                 <div className="contact-name">Rui Rego</div>
-                <div className="phone">(+351) 91 23 35 400</div>
-                <div className="email">ruimprego@gmail.com</div>
+                <a className="phone link" href="tel:+351912335400">(+351) 91 23 35 400</a>
+                <a className="email link" href="mailto:ruimprego@gmail.com">ruimprego@gmail.com</a>
             </div>
         </div>
     );
