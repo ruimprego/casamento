@@ -3,6 +3,7 @@ import './App.css';
 import LandingPage from './landing-page';
 import Content from './content';
 import Footer from './footer';
+import Information from './information';
 
 function App() {
   
@@ -15,7 +16,6 @@ function App() {
       <section>
         <LandingPage />
       </section>
-      <section className="information"></section>
       <section className="content">
         <Content />
       </section>

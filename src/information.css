@@ -1,0 +1,25 @@
+.info-title {
+    font-size: 30pt;
+    font-family: 'MagnoliaSky', serif;
+    color: #7d684c;
+    position: relative;
+    padding-top: 4vh;
+}
+
+.info-title::after {
+    clip-path: polygon(0 70%, 100% 0, 100% 30%, 0 100%);
+    transform: skew(-10deg, -10deg);
+    border-top: 5px solid #fff;
+    border-bottom: 5px solid #7d684c;
+    content: '';
+    display: block;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    z-index: 2;
+    box-shadow: 5px 10px;
+}
+
+.info-text {
+    padding-bottom: 4vh;
+}

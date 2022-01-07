@@ -18,6 +18,7 @@ function LandingPage() {
           </div>
         </div>
       </div>
+      
       <div className="arrow-icon"></div>
     </div>
   );
