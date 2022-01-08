@@ -7,14 +7,25 @@
 }
 
 .detail-image {
-    height: 40vh;
-    width: 100vw;
+    height: 300px;
+    width: 400px;
     object-fit: cover;
+    border-radius: 15px;
+    position: relative;
+}
+
+.card-cell {
+    padding: 15px;
+    width: 260px;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
 }
 
 .card {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    margin: 25px 0;
 }
 
 .card-title {
@@ -29,12 +40,21 @@
 }
 
 .card-link {
-    margin: 3vh 0;
     text-decoration: none;
-    color: #009FB7;
-    padding: 20px 50px;
+    color: #fff;
+    background-color: #009FB7;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-transform: uppercase;
-    text-decoration: underline;
     z-index: 99999;
+    width: 115px;
+    height: 35px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.map-icon {
+    width: 15px;
+    margin-right: 5px;
 }
