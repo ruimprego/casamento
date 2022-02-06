@@ -8,7 +8,7 @@ import Information from './information';
 function App() {
   
   useEffect(() => {
-    document.title = "Patrícia & Rui";  
+    document.title = "Patrícia & Rui";
   }, []);
 
   const contentRef = useRef<HTMLDivElement>(null);
