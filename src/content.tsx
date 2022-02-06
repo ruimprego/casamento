@@ -15,7 +15,7 @@ function Content() {
                 image: reception,
                 text: tp.receptionName,
                 location: 'https://goo.gl/maps/NDbog8HmPgqcxxMo9',
-                arrivalHour: '10:30',
+                arrivalHour: '11:00',
                 description: ''
             },
             {

@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useRef } from 'react';
 import './App.css';
 import LandingPage from './landing-page';
 import Content from './content';
@@ -8,16 +8,24 @@ import Information from './information';
 function App() {
   
   useEffect(() => {
-    document.title = "Patrícia e Rui";  
+    document.title = "Patrícia & Rui";  
   }, []);
+
+  const contentRef = useRef<HTMLDivElement>(null);
+
+  const scrollPage = () => {
+    if (contentRef.current) {
+      contentRef.current.scrollIntoView();
+    }
+  }
 
   return (
     <div className="App">
       <section>
-        <LandingPage />
+        <LandingPage scroll={scrollPage} />
       </section>
       <div className="bg-reset">
-      <section className="content">
+      <section ref={contentRef} className="content">
         <Content />
       </section>
       <section className="info">

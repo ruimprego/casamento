@@ -5,8 +5,9 @@ import hexagon from './assets/Hexagon.svg';
 import translate from './translate';
 import LanguagePicker from './language-picker';
 
-function LandingPage() {
+function LandingPage(props: any) {
   const homeScreen = translate.use().homeScreen;
+
   return (
     <div className="landing-page">
       <div className="language-picker-wrapper">
@@ -25,7 +26,7 @@ function LandingPage() {
         </div>
       </div>
       
-      <div className="arrow-icon"></div>
+      <div className="arrow-icon" onClick={() => props.scroll()}></div>
     </div>
   );
 }

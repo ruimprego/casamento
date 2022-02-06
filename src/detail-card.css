@@ -8,7 +8,6 @@
 
 .detail-description {
     text-align: initial;
-    font-family: 'Nanum Myeongjo', serif;
 }
 
 .detail-image {
@@ -42,6 +41,7 @@
     color: #7d684c;
     font-size: 20pt;
     text-align: initial;
+    line-height: 50px;
 }
 
 .icon {

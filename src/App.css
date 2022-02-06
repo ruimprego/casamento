@@ -1,3 +1,7 @@
+html {
+	scroll-behavior: smooth;
+}
+
 .App {
   text-align: center;
   background-image: url('./assets/background.png') ;
@@ -19,7 +23,7 @@
 	height: 40px;
 	z-index: 3;
 	margin-top: auto;
-	bottom: 15px;
+	bottom: 3vh;
 }
 
 .arrow-icon::after, .arrow-icon::before {
@@ -60,7 +64,8 @@
 }
 
 .language-picker-wrapper {
-	position: absolute;
+	position: fixed;
+	z-index: 999;
 	top: 10px;
 	right: 10px;
 }
