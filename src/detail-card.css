@@ -6,6 +6,11 @@
     z-index: 1;
 }
 
+.detail-description {
+    text-align: initial;
+    font-family: 'Nanum Myeongjo', serif;
+}
+
 .detail-image {
     height: 300px;
     width: 400px;
@@ -28,25 +33,35 @@
     margin: 25px 0;
 }
 
+.desc-link {
+    color: #009FB7;
+}
+
 .card-title {
     font-family: 'MagnoliaSky', sans-serif;
     color: #7d684c;
-    font-size: 20pt;    
+    font-size: 20pt;
+    text-align: initial;
+}
+
+.icon {
+    height: 15px;
 }
 
 .card-text {
     font-size: 15pt;
-    margin-bottom: 3vh;
+    margin-bottom: 2vh;
 }
 
 .card-link {
+    margin-top: 5px;
     text-decoration: none;
     color: #fff;
     background-color: #009FB7;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-transform: uppercase;
     z-index: 99999;
-    width: 115px;
+    padding: 0 10px;
     height: 35px;
     border-radius: 10px;
     display: flex;
