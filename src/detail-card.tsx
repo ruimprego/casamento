@@ -34,7 +34,7 @@ function DetailCard(props : any) {
     }
 
     if (props.place.phone) {
-        phone = <span className="desc-phone"><img className="icon" src={phoneIcon} alt="phone-icon"/> {props.place.phone}</span>
+        phone = <a className="desc-link desc-phone" href={`tel:${props.place.phone.replace(/[() ]/g, '')}`}><img className="icon" src={phoneIcon} alt="phone-icon"/> {props.place.phone}</a>
     }
 
     return (
