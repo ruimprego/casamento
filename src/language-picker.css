@@ -1,0 +1,20 @@
+.localization-container {
+	height: 40px;
+	width: 140px;
+}
+
+.country-flag {
+    cursor: pointer;
+	height: 25px;
+	margin-left: 10px;
+    opacity: 40%;
+    transition: all ease-in .2s;
+}
+
+.country-flag:hover {
+    opacity: 100%;
+}
+
+.country-flag.active {
+    opacity: 100%;
+}

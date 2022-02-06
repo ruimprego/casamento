@@ -16,12 +16,17 @@ function App() {
       <section>
         <LandingPage />
       </section>
+      <div className="bg-reset">
       <section className="content">
         <Content />
+      </section>
+      <section className="info">
+        <Information />
       </section>
       <section className="footer">
         <Footer />
       </section>
+      </div>
     </div>
   );
 }
