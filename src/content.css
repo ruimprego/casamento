@@ -7,9 +7,16 @@
     font-size: 20pt;
 }
 
+.content-confirmation {
+    padding-top: 15px;
+    color: #095e8c;
+    font-family: 'Sacramento', serif;
+    font-size: 25pt;
+}
+
 .content-title {
-    font-size: 30pt;
-    font-family: 'MagnoliaSky', serif;
+    font-size: 45pt;
+    font-family: 'Sacramento', serif;
     color: #7d684c;
     height: 100%;
     position: relative;

@@ -17,6 +17,10 @@ const translate = createTranslations<TranslationLanguages>()({
     }
   },
   theParty: {
+    confirmation: {
+        pt: 'Confirmações até 31 de março',
+        it: 'Confermazioni fino al 31 Marzo'
+      },
     title: {
         pt: 'A Festa',
         it: 'La Festa'

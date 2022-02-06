@@ -15,7 +15,7 @@ html {
 
 @keyframes animateFadeIn {
 	0% { opacity: 1 }
-	50% { opacity: 1 }
+	35% { opacity: 1 }
 	100% { opacity: 0 }
 }
 
@@ -31,7 +31,7 @@ html {
 	width: 100%;
 	content: '';
 	background-color: white;
-	animation: animateFadeIn 5s ease-in;
+	animation: animateFadeIn 4s ease-in;
 	animation-fill-mode: forwards;
 }
 

@@ -38,6 +38,7 @@ function Content() {
 
     return (
         <div className="content-container">
+            <div className="content-confirmation">{tp.confirmation}</div>
             <div className="content-title">{tp.title}</div>
             <div className="card-container">
                 {APP_CONST.content.map((place, i) => <DetailCard place={place} key={i}/>)}
