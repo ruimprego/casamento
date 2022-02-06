@@ -21,9 +21,11 @@ function App() {
 
   return (
     <div className="App">
-      <section>
-        <LandingPage scroll={scrollPage} />
-      </section>
+      <div className="bg-reset-top">
+        <section>
+          <LandingPage scroll={scrollPage} />
+        </section>
+      </div>
       <div className="bg-reset">
       <section ref={contentRef} className="content">
         <Content />

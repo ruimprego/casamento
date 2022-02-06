@@ -5,8 +5,34 @@ html {
 .App {
   text-align: center;
   background-image: url('./assets/background.png') ;
-  animation: animateBackground 900s linear;
+  animation: animateBackground 500s linear;
   animation-iteration-count: infinite;
+}
+
+.App-fade-in {
+	animation: animateFadeIn 1s ease-in;
+}
+
+@keyframes animateFadeIn {
+	0% { opacity: 1 }
+	50% { opacity: 1 }
+	100% { opacity: 0 }
+}
+
+.bg-reset-top {
+	position: relative;
+}
+
+.bg-reset-top::after {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	content: '';
+	background-color: white;
+	animation: animateFadeIn 5s ease-in;
+	animation-fill-mode: forwards;
 }
 
 .bg-reset {
@@ -14,6 +40,7 @@ html {
 }
 
 .arrow-icon {
+	mix-blend-mode: color-burn;
 	box-sizing: border-box;
 	display: inline-block;
 	cursor: pointer;
@@ -83,6 +110,13 @@ html {
 	display: flex;
 	align-items: center;
 	margin-top: -15px;
+	animation: animateFadeInDate 3s ease-out;
+	animation-fill-mode: forwards;
+}
+
+@keyframes animateFadeInDate {
+	0% { opacity: 0 }
+	100% { opacity: 1 }
 }
 
 .landing-title {
@@ -91,6 +125,13 @@ html {
 	text-transform: uppercase;
 	font-size: 8pt;
 	margin-bottom: 10px;
+	animation: animateFadeInTitle 3s ease-in;
+	animation-fill-mode: forwards;
+}
+
+@keyframes animateFadeInTitle {
+	0% { opacity: 0 }
+	100% { opacity: 1 }
 }
 
 .month, .year {
@@ -121,6 +162,8 @@ html {
 .logo {
   width: 50vw;
   max-width: 350px;
+  animation: animateFadeInTitle .5s ease-in;
+  animation-fill-mode: forwards;
 }
 
 .hexagon-container {
