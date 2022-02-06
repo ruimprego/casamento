@@ -43,7 +43,7 @@ const translate = createTranslations<TranslationLanguages>()({
     },
     receptionTitle: {
         pt: 'A Recepção',
-        it: 'La Reception'
+        it: 'La Recezione'
     },
     receptionName: {
         pt: 'Casa da Patrícia',
@@ -57,7 +57,7 @@ const translate = createTranslations<TranslationLanguages>()({
       },
       description: {
           pt: 'Ao falar com estes alojamentos, digam que fazem parte dos convidados do Casamento da Patrícia e do Rui para terem os preços que referimos',
-          it: 'Per avere gli sconti, nel momento della prenotazione bisogna dire che venite al matrimonio di Patricia e Rui'
+          it: 'Per avere gli sconti nel momento della prenotazione dovete dire che venite al matrimonio di Patricia e Rui'
       },
       description2: {
           pt: 'Existem ainda estes:',

@@ -23,7 +23,7 @@ function Content() {
                 image: igreja,
                 text: tp.churchName,
                 location: 'https://goo.gl/maps/F9goAoJCapWeCt987',
-                arrivalHour: '12:00',
+                arrivalHour: '12:30',
                 description: ''
             },
             {
